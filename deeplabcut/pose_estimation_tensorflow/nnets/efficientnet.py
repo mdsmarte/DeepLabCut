@@ -17,7 +17,7 @@ See https://openaccess.thecvf.com/content/WACV2021/html/Mathis_Pretraining_Boost
 """
 
 import tensorflow as tf
-import deeplabcut.pose_estimation_tensorflow.backbones.efficientnet_builder as eff
+from deeplabcut.pose_estimation_tensorflow.backbones import efficientnet_builder as eff
 from .base import BasePoseNet
 from .factory import PoseNetFactory
 

@@ -16,7 +16,7 @@ import tensorflow as tf
 import tf_slim as slim
 from tf_slim.nets import resnet_v1
 
-import deeplabcut.pose_estimation_tensorflow.backbones.efficientnet_builder as eff
+from deeplabcut.pose_estimation_tensorflow.backbones import efficientnet_builder as eff
 from deeplabcut.pose_estimation_tensorflow.nnets import conv_blocks
 from deeplabcut.pose_estimation_tensorflow.backbones import mobilenet_v2, mobilenet
 from .base import BasePoseNet

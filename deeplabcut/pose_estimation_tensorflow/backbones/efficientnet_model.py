@@ -22,7 +22,7 @@ import math
 import numpy as np
 import tensorflow as tf
 
-import deeplabcut.pose_estimation_tensorflow.nnets.utils as utils
+from deeplabcut.pose_estimation_tensorflow.nnets import utils
 
 GlobalParams = collections.namedtuple(
     "GlobalParams",
